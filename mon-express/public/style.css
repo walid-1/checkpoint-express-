@@ -1,0 +1,358 @@
+/* Header */
+
+.logo_header {
+  padding-top: 12px;
+  width: 268px;
+  height: 33px;
+}
+
+h1 {
+  color: #747474;
+  text-align: center;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: #747474;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #747474;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #747474;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.section1 {
+  padding-top: 50px;
+}
+
+.body_logo {
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section1 p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  text-align: justify;
+  color: #747474;
+}
+
+.text_sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.services-container-for-patients {
+  width: 40%;
+  background-color: #00ccb1;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 22px;
+  margin-top: 10px;
+}
+
+.services-container-for-doctors {
+  background-color: #3d83df;
+  width: 40%;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 22px;
+  margin-top: 10px;
+}
+
+.services-container h1,
+.services-container h2 {
+  color: white;
+}
+
+.adress-container {
+  display: flex;
+}
+
+.adress-container h1 {
+  font-family: "Charmonman", cursive;
+  color: rgb(0, 204, 177);
+  width: 30%;
+}
+.adress-list-of-links {
+  width: 70%;
+  margin-left: 10%;
+}
+.adress-list-of-links ul {
+  list-style-type: none;
+  line-height: 3;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+}
+.adress-list-of-links li {
+  float: left;
+  margin-right: 15px;
+}
+.adress-list-of-links li a {
+  color: rgb(196, 196, 196);
+  text-decoration: none;
+}
+.adress-list-of-links img {
+  height: 22px;
+}
+
+footer {
+  border-top: 1px solid rgba(196, 196, 196, 0.7);
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+}
+.footer {
+  display: flex;
+  text-align: center;
+}
+.footer p {
+  width: 32%;
+  color: black;
+  opacity: 0.7;
+  margin-left: 15%;
+  margin-bottom: 0.5%;
+}
+.offices-list {
+  width: 50%;
+  margin-left: -20%;
+  margin-top: 1.2%;
+}
+
+.stats-container {
+  background: linear-gradient(80deg, white, rgb(0, 204, 177));
+  display: flex;
+  height: 380px;
+  padding: 4%;
+  overflow: hidden;
+}
+.introduction-box {
+  width: 30%;
+}
+.introduction-box h1 {
+  color: rgb(0, 177, 159);
+  font-family: "Charmonman", cursive;
+  margin-bottom: 7%;
+}
+.introduction-box p {
+  opacity: 0.4;
+}
+.introduction-logo img {
+  height: 231px;
+  width: 100%;
+  margin-top: 5%;
+}
+.stats {
+  text-align: center;
+  width: 60%;
+  margin: 0 4% 0 19%;
+}
+.stats h1 {
+  color: rgb(0, 197, 155);
+  font-family: "Charmonman", cursive;
+}
+.stats-box {
+  height: 190px;
+  background-color: white;
+  border-radius: 7%;
+  width: 45%;
+  margin-right: 5%;
+}
+.stats-box-colomn-2 {
+  display: flex;
+  margin-top: 5%;
+}
+.stats-box-colomn-1 {
+  display: flex;
+}
+
+.box-3 p {
+  margin-right: 17%;
+  margin-top: -5%;
+}
+.box-4 p {
+  margin-right: 17%;
+}
+.offices-description {
+  text-align: center;
+}
+.offices-description h1 {
+  color: rgb(0, 197, 155);
+  font-family: "Charmonman", cursive;
+}
+.offices-description p {
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+}
+.offices-colomn-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.offices-colomn-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.offices-colomn-1 h1 {
+  font-family: "Charmonman", cursive;
+}
+.offices-box h2 {
+  font-family: "Charmonman", cursive;
+}
+
+.opening-information {
+  text-align: right;
+  margin-top: -17%;
+}
+.opening-information input {
+  background-color: rgb(61, 131, 223);
+  color: white;
+  height: 31px;
+  border-radius: 25px;
+}
+footer {
+  border-top: 1px solid rgba(196, 196, 196, 0.7);
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+}
+.footer {
+  display: flex;
+  text-align: center;
+}
+.footer p {
+  width: 32%;
+  color: black;
+  opacity: 0.7;
+  margin-left: 15%;
+  margin-bottom: 0.5%;
+}
+.offices-list {
+  width: 50%;
+  margin-left: -20%;
+  margin-top: 1.2%;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(61, 131, 223);
+}
+.contact_container {
+  text-align: center;
+}
+.contact-form .input_text,
+.contact-form textarea {
+  width: 50%;
+  height: 25px;
+  margin: 10px 0;
+  background-color: #353b48;
+  border: none;
+  outline: none;
+  padding: 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+.messageZone {
+  min-height: 200px;
+  resize: vertical;
+}
+.contact-form .btn {
+  width: 180px;
+  background-color: transparent;
+  color: #19839b;
+  font-size: 16px;
+  border: 2px solid #09323b;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.contact-form .btn:hover {
+  background-color: #1e525e;
+  color: #fff;
+}
+.body {
+  font-family: "Lobster", cursive;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
